@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "serverless-offline": "^13.1.0"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/serverless offline -s dev",
+    "debug": "export SLS_DEBUG=* && node --inspect-brk=0.0.0.0:5150 ./node_modules/.bin/serverless offline -s dev",
+    "test": "jest"
+  }
+}

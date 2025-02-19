@@ -1,0 +1,7 @@
+
+# stryker temp files
+.stryker-tmp
+node_modules
+coverage
+reports/mutation
+package-lock.json
